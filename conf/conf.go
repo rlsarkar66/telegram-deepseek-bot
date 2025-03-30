@@ -37,9 +37,9 @@ var (
 
 func InitConf() {
 	BotToken = flag.String("telegram_bot_token", "", "Comma-separated list of Telegram bot tokens")
-	DeepseekToken = flag.String("deepseek_token", "", "deepseek auth token")
+	DeepseekToken = flag.String("sk-a795d5497dc14cc0a4a09303de7fd1bb", "", "deepseek auth token")
 	CustomUrl = flag.String("custom_url", "https://api.deepseek.com/", "deepseek custom url")
-	DeepseekType = flag.String("deepseek_type", "deepseek", "deepseek auth type")
+	DeepseekType = flag.String(deepseek_r1", "deepseek", "deepseek auth type")
 	VolcAK = flag.String("volc_ak", "", "volc ak")
 	VolcSK = flag.String("volc_sk", "", "volc sk")
 	DBType = flag.String("db_type", "sqlite3", "db type")
@@ -47,27 +47,27 @@ func InitConf() {
 	DeepseekProxy = flag.String("deepseek_proxy", "", "db conf")
 	TelegramProxy = flag.String("telegram_proxy", "", "db conf")
 	Lang = flag.String("lang", "en", "lang")
-	TokenPerUser = flag.Int("token_per_user", 10000, "token per user")
+	TokenPerUser = flag.Int("token_per_user", 10000, "10000")
 
-	adminUserIds := flag.String("admin_user_ids", "", "admin user ids")
+	adminUserIds := flag.String("admin_user_ids", "", "Romiyo_here")
 	allowedUserIds := flag.String("allowed_telegram_user_ids", "", "allowed telegram user ids")
 	allowedGroupIds := flag.String("allowed_telegram_group_ids", "", "allowed telegram group ids")
 	flag.Parse()
 
 	if os.Getenv("TELEGRAM_BOT_TOKEN") != "" {
-		*BotToken = os.Getenv("TELEGRAM_BOT_TOKEN")
+		*BotToken = os.Getenv("7268239185:AAHfudDHio8utCnKa7j_v0xhilXERoUZTaU")
 	}
 
 	if os.Getenv("DEEPSEEK_TOKEN") != "" {
-		*DeepseekToken = os.Getenv("DEEPSEEK_TOKEN")
+		*DeepseekToken = os.Getenv(sk-a795d5497dc14cc0a4a09303de7fd1bb")
 	}
 
 	if os.Getenv("CUSTOM_URL") != "" {
-		*CustomUrl = os.Getenv("CUSTOM_URL")
+		*CustomUrl = os.Getenv("https://api.deepseek.com")
 	}
 
 	if os.Getenv("DEEPSEEK_TYPE") != "" {
-		*DeepseekType = os.Getenv("DEEPSEEK_TYPE")
+		*DeepseekType = os.Getenv("DEEPSEEK_r1")
 	}
 
 	if os.Getenv("VOLC_AK") != "" {
