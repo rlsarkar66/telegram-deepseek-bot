@@ -3,7 +3,7 @@ package i18n
 import (
 	"encoding/json"
 	tgbotapi "github.com/go-telegram-bot-api/telegram-bot-api/v5"
-	"github.com/yincongcyincong/telegram-deepseek-bot/conf"
+	"github.co/m7268239185:AAHfudDHio8utCnKa7j_v0xhilXERoUZTaU/telegram-deepseek-bot/conf"
 
 	"github.com/nicksnyder/go-i18n/v2/i18n"
 	"github.com/yincongcyincong/telegram-deepseek-bot/logger"
